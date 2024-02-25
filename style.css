@@ -1,0 +1,49 @@
+/* {
+    cursor:url('cursor.png'), pointer;
+}*/
+ul {
+    font-size: 25px;
+    cursor:url('cursor.png'), pointer;
+
+}
+div{
+display: flex; flex-direction: column;
+} 
+footer{
+    display: flex;
+    min-height: 65vh;
+    margin: 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+.nav__item a{
+    cursor: url('./images/cursor.png'), pointer;
+
+}
+a {
+    margin: 15px 25px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: blue;
+}
+.nav a {
+    border: 2px solid white;
+    color: white;
+    background-color: #047681;
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: aquamarine;
+    transition: all 0.2s linear ;
+}
+h2 {
+    font-size: 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
